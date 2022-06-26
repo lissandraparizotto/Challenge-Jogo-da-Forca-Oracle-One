@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width"/>
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <img src="imagens/logo.png" class="logo">
+        </header>
+    <div style="text-align:center; margin: 50px 0px;">
+      <h1 class="titulo">Jogo da Forca</h1>
+      <button class="btn" id="iniciar-jogo">JOGAR</button> 
+      <button class="btn" id="reiniciar-jogo">LIMPAR JOGO</button> 
+    </div>
+
+    <div class="principal" style="text-align:horizontal;">
+      <canvas id="forca" height="400px" width="1200px"></canvas> 
+      <ul class="letras" id="linha1">
+        <li class="btn">Q</li>
+        <li class="btn">W</li>
+        <li class="btn">E</li>
+        <li class="btn">R</li>
+        <li class="btn">T</li>
+        <li class="btn">Y</li>
+        <li class="btn">U</li>
+        <li class="btn">I</li>
+        <li class="btn">O</li>
+        <li class="btn">P</li>
+      </ul>
+      <ul class="letras" id="linha2">        
+        <li class="btn">A</li>
+        <li class="btn">S</li>
+        <li class="btn">D</li>
+        <li class="btn">F</li>
+        <li class="btn">G</li>
+        <li class="btn">H</li>
+        <li class="btn">J</li>
+        <li class="btn">K</li>
+        <li class="btn">L</li>
+      </ul>
+      <ul class="letras" id="linha3">
+        <li class="btn">Z</li>
+        <li class="btn">X</li>
+        <li class="btn">C</li>
+        <li class="btn">V</li>
+        <li class="btn">B</li>
+        <li class="btn">N</li>
+        <li class="btn">M</li>
+      </ul>
+
+
+      <input type="text" placeholder="Insira aqui sua palavra!" id="palavraNova">
+      <button type="button" id="cadastrarPalavra">Cadastrar</button>
+    </div> 
+
+    <footer>
+      <p class="challenge">Challenge Oracle ONE</p>
+      <p class="copyright">&copy;Copyright Lissandra Mannelli Parizotto           
+    </footer>
+
+    <script type="text/javascript" src="canvas.js"></script>
+    <script type="text/javascript" src="forca.js"></script>
+  </body>
+
+</html>

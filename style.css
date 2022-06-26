@@ -1,0 +1,76 @@
+body{
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-weight: bold;
+}
+
+.logo{
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+.titulo {
+  width: 80vw;
+  margin: auto;
+  color: darkblue;
+}
+
+.principal{
+  background-color:lightblue;
+}
+
+.letras{
+  cursor: pointer;
+  display:flex;
+  list-style-type: none;
+}
+
+#linha1{
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+}
+#linha2{
+  position: relative;
+  width: 350px;
+  margin: 0 auto;
+}
+#linha3{
+  position: relative;
+  width: 290px;
+  margin: 0 auto;
+ }
+
+footer{
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.0;
+  margin: 50px;
+ }
+
+  .btn {
+    border: 0;
+    color: lightgray;
+    font-weight: bold;
+    background-color: green;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 0.5em;
+    margin: 5px 1.5px;
+  }
+  .btn:hover {
+    border: 0;
+    width: 10%;
+    color: lightgray;
+    font-weight: bold;
+    background-color: gray;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 0.5em;
+    margin: 0 1.5px;
+  }
+  
+
+
